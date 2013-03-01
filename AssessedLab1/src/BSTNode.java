@@ -1,21 +1,19 @@
 public class BSTNode<T1, T2> {
-    private T1 key;
-    private T2 value;
+    private Associate<T1, T2> associate;
     private BSTNode<T1, T2> left, right;
 
     public BSTNode(T1 key, T2 value) {
-        this.key = key;
-        this.value = value;
+        this.associate = new Associate<T1, T2>(key, value);
         this.left = null;
         this.right = null;
     }
 
     public T1 getKey() {
-        return key;
+        return associate.getKey();
     }
 
     public T2 getValue() {
-        return value;
+        return associate.getValue();
     }
 
     public BSTNode<T1, T2> getLeft() {
@@ -29,7 +27,7 @@ public class BSTNode<T1, T2> {
     // Add a descendant node to this.
     @SuppressWarnings("unchecked")
     public void add(BSTNode<T1, T2> descendant) {
-        int comparison = ((Comparable<T1>) descendant.getKey()).compareTo(key);
+        int comparison = ((Comparable<T1>) descendant.getKey()).compareTo(associate.getKey());
 
         // If new key is less than this node's key, add to the left.
         if (comparison < 0) {
@@ -52,7 +50,7 @@ public class BSTNode<T1, T2> {
             }
         } else {
             // Else, replace this node with new value.
-            value = descendant.getValue();
+            associate.setVal(descendant.getValue());
         }
     }
 
@@ -61,7 +59,7 @@ public class BSTNode<T1, T2> {
         if (left != null) {
             left.print();
         }
-        System.out.println(key + " : " + value);
+        System.out.println(associate.getKey() + " : " + associate.getValue());
         if (right != null) {
             right.print();
         }
