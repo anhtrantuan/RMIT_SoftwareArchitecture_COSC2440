@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <display-name>Upcoming Events</display-name>
+
+    <!-- Declare the existence of a servlet. -->
+    <servlet>
+        <servlet-name>EventServlet</servlet-name>
+        <servlet-class>vn.edu.rmit.assessedlab2.EventServlet</servlet-class>
+    </servlet>
+
+    <!-- Map URLs to that servlet. -->
+    <servlet-mapping>
+        <servlet-name>EventServlet</servlet-name>
+        <url-pattern>/events</url-pattern>
+    </servlet-mapping>
+</web-app>
