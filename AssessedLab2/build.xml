@@ -10,21 +10,21 @@
     <target name="clean">
         <delete dir="${dest.dir}"/>
         <delete dir="${build.dir}"/>
-        <mkdir dir="${dest.dir}"/>
-        <mkdir dir="${build.dir}"/>
     </target>
 
     <target name="compile" depends="clean">
+        <mkdir dir="${dest.dir}"/>
+        <mkdir dir="${build.dir}"/>
         <javac srcdir="${src.dir}"
                destdir="${dest.dir}"
                classpathref="lib.path.ref"/>
     </target>
 
     <target name="war" depends="compile">
-
         <war destfile="${build.dir}/AssessedLab2.war"
              webxml="${basedir}/WEB-INF/web.xml">
             <classes dir="${dest.dir}"/>
+            <file file="events.txt"/>
         </war>
     </target>
 

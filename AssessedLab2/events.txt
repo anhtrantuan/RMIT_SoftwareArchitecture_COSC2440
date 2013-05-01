@@ -1,25 +1,25 @@
-Melbourne	Athletics	Athletics event	1 day
-Melbourne	Arts	Arts event	2 day
-Melbourne	Food	Food event	3 day
-Melbourne	Racing	Racing event	4 day
-Melbourne	Cinema	Cinema event	5 day
+Melbourne	Athletics	Melbourne Athletics event	1 day
+Melbourne	Arts	Melbourne Arts event	2 days
+Melbourne	Food	Melbourne Food event	3 days
+Melbourne	Racing	Melbourne Racing event	4 days
+Melbourne	Cinema	Melbourne Cinema event	5 days
 Sydney	Athletics	Sydney Athletics event	1 day
-Sydney	Arts	Sydney Arts event	2 day
-Sydney	Food	Sydney Food event	3 day
-Sydney	Racing	Sydney Racing event	4 day
-Sydney	Cinema	Sydney Cinema event	5 day
+Sydney	Arts	Sydney Arts event	2 days
+Sydney	Food	Sydney Food event	3 days
+Sydney	Racing	Sydney Racing event	4 days
+Sydney	Cinema	Sydney Cinema event	5 days
 Perth	Athletics	Perth Athletics event	1 day
-Perth	Arts	Perth Arts event	2 day
-Perth	Food	Perth Food event	3 day
-Perth	Racing	Perth Racing event	4 day
-Perth	Cinema	Perth Cinema event	5 day
+Perth	Arts	Perth Arts event	2 days
+Perth	Food	Perth Food event	3 days
+Perth	Racing	Perth Racing event	4 days
+Perth	Cinema	Perth Cinema event	5 days
 Adelaide	Athletics	Adelaide Athletics event	1 day
-Adelaide	Arts	Adelaide Arts event	2 day
-Adelaide	Food	Adelaide Food event	3 day
-Adelaide	Racing	Adelaide Racing event	4 day
-Adelaide	Cinema	Adelaide Cinema event	5 day
-Brisbane	Athletics	Athletics event	1 day
-Brisbane	Arts	Brisbane Arts event	2 day
-Brisbane	Food	Brisbane Food event	3 day
-Brisbane	Racing	Brisbane Racing event	4 day
-Brisbane	Cinema	Brisbane Cinema event	5 day
+Adelaide	Arts	Adelaide Arts event	2 days
+Adelaide	Food	Adelaide Food event	3 days
+Adelaide	Racing	Adelaide Racing event	4 days
+Adelaide	Cinema	Adelaide Cinema event	5 days
+Brisbane	Athletics	Brisbane Athletics event	1 day
+Brisbane	Arts	Brisbane Arts event	2 days
+Brisbane	Food	Brisbane Food event	3 days
+Brisbane	Racing	Brisbane Racing event	4 days
+Brisbane	Cinema	Brisbane Cinema event	5 days
